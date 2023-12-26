@@ -24,10 +24,9 @@ class AdminController extends Controller
         $doctor->phone=$request->phone;
         $doctor->room=$request->room;
         $doctor->speciality=$request->speciality;
-        $doctor->usia = $request->usia;
 
-        // $doctor->save();
-        return redirect()->back()->with('message', 'Doctor Added Successfully, usia = ' . $doctor->usia);
+         $doctor->save();
+        return redirect()->back()->with('message', 'Doctor Added Successfully');
     }
 
     public function deletedoctor($id){

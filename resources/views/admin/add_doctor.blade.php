@@ -81,11 +81,6 @@
  </div>
 
 
- <div style="padding:15px">
-    <label>Usia</label>
-    <input type="number" style="color:black" name="usia" placeholder="Write the age">
-</div>
-
  
  <div style="padding:15px">
     <input type="submit" class="btn btn-success">
