@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use App\Models\Doctors;
 use App\Http\Requests\StoreNewsRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -47,9 +48,10 @@ class NewsController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(News $news)
+    public function showlist(News $news)
     {
-        //
+        $news=news::all();
+        return view('admin.news_list', compact('news'));
     }
 
     /**
