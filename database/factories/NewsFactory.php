@@ -20,7 +20,7 @@ class NewsFactory extends Factory
         return [
             //
             'title' => fake()->sentence(),
-            'content' => fake()->paragraph(),
+            'content' => fake()->sentence(),
             'image' => "1701708290.png",
         ];
     }

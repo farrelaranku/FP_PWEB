@@ -46,13 +46,20 @@
             </div>
             <div style="padding:15px">
                 <label>Speciality</label>
-                <select name="speciality" style="color:black; width: 200px;">
-                    <option value="">--Select--</option>
-                    <option value="Skin">Skin</option>
-                    <option value="Heart">Heart</option>
-                    <option value="Eye">Eye</option>
-                    <option value="Nose">Nose</option>
-                </select>
+            <select name="speciality" style="color:black; width: 200px;">
+                <option value="">--Select--</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Neurology">Neurology</option>
+                <option value="Gynecology">Gynecology</option>
+                <option value="Rheumathology">Rheumathology</option>
+                <option value="Ophthalmologists">Ophthalmologists</option>
+                <option value="Psychiatrists">Psychiatrists</option>
+                <option value="Radiologists">Radiologists</option>
+                <option value="Urologists">Urologists</option>
+                <option value="Hematologists">Hematologists</option>
+
+
+            </select>
             </div>
             <div style="padding:15px">
                 <label>Room</label>

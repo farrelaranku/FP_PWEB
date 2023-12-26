@@ -49,6 +49,12 @@ Route::get('/add_news',[NewsController::class,'addnewsview']);
 
 Route::get('/news_list',[NewsController::class,'showlist']);
 
+Route::get('/deletenews/{id}', [NewsController::class, 'deletenews']);
+
+Route::get('updatenews/{id}', [NewsController::class, 'updatenews']);
+
+Route::post('updateberita/{id}', [NewsController::class, 'updateberita']);
+
 Route::post('/store_news',[NewsController::class,'store_news']);
 
 Route::post('/appointment',[HomeController::class,'appointment']);

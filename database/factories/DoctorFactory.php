@@ -19,7 +19,7 @@ class DoctorFactory extends Factory
         return [
             'name' => fake()->name(),
             'phone' => fake()->phoneNumber(),
-            'speciality' => fake()->randomElement(['Skin', 'Heart', 'Eye', 'Nose']),
+            'speciality' => fake()->randomElement(['Cardiology', 'Neurology', 'Gynecology', 'Rheumathology', 'Ophthalmologists', 'Psychiatrists', 'Radiologists', 'Urologists', 'Hematologists']),
             'room' => fake()->numberBetween(0, 20)
         ];
     }
