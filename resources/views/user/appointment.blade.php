@@ -40,7 +40,7 @@
           <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary mt-3 zoomIn">Submit Request</button>
+      <button type="submit" class="btn btn-primary zoomIn">Submit Request</button>
 
     </form>
 
