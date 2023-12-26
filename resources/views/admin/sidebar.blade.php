@@ -83,6 +83,15 @@
       </li>
 
       <li class="nav-item menu-items">
+        <a class="nav-link" href="{{ url('news_list') }}">
+          <span class="menu-icon">
+            <i class="mdi mdi-file-document-box"></i>
+          </span>
+          <span class="menu-title">News List</span>
+        </a>
+      </li>
+
+      <li class="nav-item menu-items">
         <a class="nav-link" href="{{ url('add_news') }}">
           <span class="menu-icon">
             <i class="mdi mdi-file-document-box"></i>
